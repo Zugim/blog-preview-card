@@ -8,27 +8,37 @@
   
   <title>Frontend Mentor | Blog preview card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" type="text/css" href="styles/reset.css" />
+  <link rel="stylesheet" type="text/css" href="styles/attribution.css" />
+  <link rel="stylesheet" type="text/css" href="styles/styles.css" />
 </head>
 <body>
+  <section class="blog-preview">
+      <img class="feature-img" src="images/illustration-article.svg" alt="Abstract illustration depicting a closing tag and a series of opening curly braces."/> 
 
-  Learning
+      <div class="tags-container">
+        <div class="tag catagory-tag">Learning</div>
+        <div class="tag tech-tag">HTML</div>
+        <div class="tag tech-tag">CSS</div>
+      </div>
+      <p class="date">Published 21 Dec 2023</p>            
 
-  Published 21 Dec 2023
+      <a class="title" href="https://www.frontendmentor.io/learning-paths/getting-started-on-frontend-mentor-XJhRWRREZd/steps/6719b89d5832c087f25e0fd9/challenge/start"><h2 >HTML & CSS foundations</h2></a>
+      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
 
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
+      <div class="author-details">
+          <img class="avatar" src="images/image-avatar.webp "alt="The author of the blog posts avatar image.">
+          <p class="name">Greg Hooper<p>
+      </div>     
+  </section>  
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Zugim</a>.
+    </div>
+  </footer>
 </body>
 </html>
